@@ -1,0 +1,112 @@
+
+body,h1,h3,ul,ol{
+    margin: 0px;
+    padding:0px ;
+}
+body{
+    /* background-color: rgb(17, 139, 214); */
+    background: rgb(0,56,55);
+    background: linear-gradient(180deg, rgb(3, 53, 52) 0%, rgba(52,48,169,1) 10%, rgba(0,212,255,1) 77%);
+    background: rgb(0,56,55);
+    background: linear-gradient(180deg, rgba(0,56,55,1) 0%, rgb(49, 43, 220) 1%, rgb(33, 195, 228) 77%); 
+    /* background: #36D1DC;  
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  
+    background: linear-gradient(to right, #5B86E5, #36D1DC);  */
+    /* background: #4e54c8;  
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8); 
+    background: linear-gradient(to right, #8f94fb, #4e54c8);  */
+    /* background: #7F00FF;  
+background: -webkit-linear-gradient(to right, #E100FF, #7F00FF); 
+background: linear-gradient(to right, #E100FF, #7F00FF); */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    /* color: rgb(71, 153, 54); */
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: 450px;
+}
+ul li {
+   margin: 8px;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+#navbar{
+    display: flex;
+    background-color: goldenrod;
+    align-items: center;
+}
+#navbar ul li {
+    font-size: 20px;
+}
+#regis{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    /* color: rgb(18, 150, 36); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    margin-left: 31vw;
+    padding: 50px;
+    /* background-color: #a6cc5f; */
+}
+.fir p{
+    font-size: 18px;
+    margin: 2px;
+    width: 10vw;
+}
+.las{
+    width: 20vw;
+}
+.gender{
+    font-size: 18px;
+}
+.gen{
+    width: 340px;
+}
+.registra{
+    margin-left: 6vw;
+}
+.registra li {
+    height: 5vh;
+    margin-top: 30px;
+    background-color: #125326;
+    padding: 0px 20px;
+    border-radius: 50px;
+}
+.registra li a{
+    font-size: 30px;
+}
+#hero{
+    padding: 100px ;
+    height: 70dvh;
+    width: 50vw;
+    font-size: 50px;
+}
+.home{
+    margin-right: 30vw;
+    margin-left: 5vw;
+}
+.home li a{
+    font-size: 30px;
+}
+#heroimg{
+    height: 500px;
+    width: 46vw;
+    margin-top: 120px;
+    background: url(./computer-image-removebg-preview.png);
+
+    background-repeat: no-repeat;
+}
+#container{
+    display: flex;
+}
+#hero h1{
+    font-weight: 1000;
+}
